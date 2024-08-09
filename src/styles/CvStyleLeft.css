@@ -1,0 +1,117 @@
+.curriculum.CvStyleLeft {
+    background-color: white;
+    font-family: var(--resume-font);
+    width: 210mm; /* Ancho de A4 */
+    height: 296.85mm; /* Alto de A4 */
+    margin: 0 ;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+.dataSection.CvStyleLeft{
+    display: flex;
+    flex-direction: column;
+}
+
+.personalSection.CvStyleLeft {
+    background-color: #172554;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 45%;
+}
+
+.nameSection.CvStyleLeft {
+     font-size: 40px;
+    font-weight: bold;
+}
+
+.personalInfoData.CvStyleLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.subSection.companyName.CvStyleLeft {
+     font-weight: bolder;
+}
+
+.eduInstitution.CvStyleLeft {
+    font-weight: bold;
+}
+
+.title.CvStyleLeft {
+    background-color: rgba(59, 130, 246, 0.5);
+    color: black;
+    padding: 5px;
+}
+
+.principalSection.CvStyleLeft {
+    margin-top: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Section.CvStyleLeft {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 5px;
+    color: black;
+    break-inside: avoid;
+}
+
+.subSection.CvStyleLeft{
+     display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.dates.CvStyleLeft {
+    min-width: 150px;
+    text-align: left;
+    margin-right: 10px;
+}
+
+.companyName.CvStyleLeft{
+    font-weight: bolder;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+.imageWrapper {
+    margin: 20px 0;
+    text-align: center;
+    background-color: #172554;
+    height: auto;
+}
+
+.profileImage {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #172554;
+    background-color: #172554;
+}
+
+
+
+@media print {
+    .curriculum {
+        box-shadow: none;
+        margin: 0;
+        width: initial;
+        min-height: initial;
+        page-break-after: always;
+    }
+}

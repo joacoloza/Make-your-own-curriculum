@@ -1,0 +1,98 @@
+.curriculum.CvStyleTop   {
+    background-color: white;
+    font-family: var(--resume-font);
+    width: 210mm; /* Ancho de A4 */
+    height: 295mm; /* Alto de A4 */
+    margin: 0 auto;
+    box-shadow: 0 0 5mm rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.personalSection.CvStyleTop  {
+    background-color: #172554;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.nameSection.CvStyleTop {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.personalInfoData.CvStyleTop {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.companyName.CvStyleTop  {
+    font-weight: bold;
+}
+
+.eduInstitution.CvStyleTop {
+    font-weight: bold;
+}
+
+.title.CvStyleTop {
+    background-color: rgba(59, 130, 246, 0.5);
+    color: black;
+    padding: 5px;
+}
+.principalSection.CvStyleTop {
+    margin-top: 20px;
+    margin: 20px;
+}
+
+.Section.CvStyleTop {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    color: black;
+    break-inside: avoid;
+}
+
+.subSection.CvStyleTop {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.dates.CvStyleTop {
+    min-width: 150px;
+    text-align: left;
+    margin-right: 10px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+.scaleCv.curriculum.CvStyleTop{
+    max-width: 595px;
+    --h1-font-size:.938rem;
+    --h2-font-size:.938rem;
+    --h3-font-size:.875rem;
+    --p-font-size:.75rem;
+}
+
+.scaleCv.Section.CvStyleTop{
+    padding: 1.5rem 0 .80rem ;
+}
+
+.scaleCv.subSection.CvStyleTop{
+    padding-right: .5rem;
+}
+
+
+
+@media print {
+    .curriculum {
+        box-shadow: none;
+        margin: 0;
+    }
+}
